@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="popup-container" id="popup-btn">
+        <div type = "button" class="close" onclick="closePopups()"><img src="/pictures/close.png"></div>
+        <h1>ACCESS DENIED</h1>
+        <h2>You need to Log In first to access the other features of ESSU Sports Zone</h2>
+        <p>Do you wish to Log In?</p>
+        <button type="Proceed" id="popping" class="btn" onclick="closePopup()">PROCEED</button>
+    </div>
+    <form class="create" id="create-btn" action="/register-form" method="POST">
+        <div class="create-account"><img src="/pictures/create.png"></div>
+        <p>Join and Watch Games</p>
+        <h2 class="one">CREATE YOUR ACCOUNT</h2>
+        <div type="button" class="close-pic" onclick="closingPop()">
+            <img src="/pictures/x.png">
+        </div>
+        <div class="inputing">
+            <div style="display: flex; flex-direction: column;">
+                <label for=""> Full Name </label>
+                    <input class= "inputs" type="text" name="fullname">
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label for=""> Student No. </label>
+                        <input class= "inputs" type="number" name="studentno">
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+                        <label for=""> Password </label>
+                            <input class= "inputs" type="password" name="passwords">
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <label for=""> Confirm Password </label>
+                                <input class= "inputs" type="password" name="fullname">
+                            </div>
+            <button class="sign-up" type="submit" onclick="closingPop()">Create Now</button>
+            <h2>Already have an account? Sign in</h2>
+            <hr>
+            <h1>By clicking Sign Up you agree to the Terms & Privacy Policy</h1>
+        </div>
+        
+    </form>
+    <form class="login-container" id="login" action="/login" method="POST">
+        <h2>SIGN IN TO CONTINUE</h2>
+        <div type = "button" class="closing" onclick="closingSlide()"><img src="/pictures/close.png"></div>
+        <div class="input-box">
+            <p>Student No.</p>
+            <input class= "input" type="StudentNo" placeholder="Student Number" name = "studentnu">
+            <p>Password</p>
+            <input class= "input1" type="password" placeholder="Password" name = "pass">
+            <h4 class="recovery">Recovery Password</h4>
+            <input class="check" type= "checkbox">
+            <h3 class="remember">Remember Me</h3>
+            <button id="myButton" class="float-left submit-button" type="submit">LOGIN</button>
+            <p class="creater" id="create-accounts" onclick="popCreate()">Create an account</p>
+        </div>
+        <img src="/pictures/wewww.jpg">
+    </form>
+    <div class="body-container">
+        <div class="header">
+            <div class="logos">
+                <img class="logo1" src="/pictures/logo.png.png" alt="">
+                <img class="logo2" src="/pictures/essuuu.png" alt="">
+            </div>
+            <div class="butt">
+                <button onclick="openSlide()">LOGIN</button>
+                <div class="navbar1">
+                        <ul class="dropit">
+                            <p class="menu" onclick="openPopup()">HOME</p>
+                            <p class="menu" onclick="openPopup()">JOIN CLUB</p>
+                            <p class="menu" onclick="openPopup()">NEWS</p>
+                            <p class="menu" onclick="openPopup()">EVENTS</p>
+                            <p class="menu2" onclick="openPopup()">CLUBS</p>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="quote">
+                <h2 id="h2">EASTERN SAMAR STATE UNIVERSITY <br> SPORTS MANAGEMENT</h2>
+                <p>“The difference is that those who walk away with <br> the win, the title, the glory are always those who are <br> most prepared. It's always about putting in the work.”
+                <br><br> Become the Greatest of All Time.</p>
+
+            </div>
+            <div class="imaging">
+                <img src="/pictures/poto.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <h1>ESSU GAME AND SCHEDULE</h1>
+        <hr>
+    </div>
+    <div class="games">
+        <div class="rectangle1">
+            <img class="same" src="/pictures/baseball.png" alt="">
+        </div>
+        <div class="rectangle1">
+            <img class="same" src="/pictures/loss.png" alt="">
+        </div>
+        <div class="rectangle1">
+            <img class="same" src="/pictures/win.png" alt="">
+
+        </div>
+        <div class="rectangle1">
+            <img class="same" src="/pictures/win.png" alt="">
+        </div>
+        <div class="result">
+            <img src="/pictures/matches.png" alt="">
+        </div>
+    </div>
+    <div class="line">
+        <hr>
+    </div>
+    <div class="events">
+        <div class="event-text wow">
+            <h1>LIST OF EVENTS</h1>
+            <div class="flex-event">
+                <div class="idol">
+                    <img class="news-picture" src="pictures/scuaa.png" alt="">
+                </div>
+                <div class="yow">
+                    <p class="event-head">SCUAA REGIONAL GAMES 2023</p>
+                    <div class="date">
+                        <p>Date: September 7, 2023</p>
+                        <p>Where: Memorial State University Negros Ocidental</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-event">
+                <div class="idol">
+                    <img class="news-picture" src="pictures/quin.png" alt="">
+                </div>
+                <div class="yow">
+                    <p class="event-head">QUINTUPLE MEET 2023</p>
+                    <div class="date">
+                        <p>Date: August 12, 2023</p>
+                        <p>Where: Eastern Samar State University</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-event">
+                <div class="idol">
+                    <img class="news-picture" src="pictures/VICTORY.jpg" alt="">
+                </div>
+                <div class="yow">
+                    <p class="event-head">VICTORY BALL 2023</p>
+                    <div class="date">
+                        <p>Date: December 21, 2023</p>
+                        <p>Where: Canuctan Hall</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="news-text wow">
+            <h1>NEWS</h1>
+            <div class="flex-event">
+                <div class="idol">
+                    <img class="news-picture" src="pictures/news.png" alt="">
+                </div>
+                <div class="yow2">
+                    <p>The Salcedo campus coach suggested that officials verify the documents of ESSU Main's players before the championship match, which eventually led to their disqualification announcement.</p>
+                </div>
+            </div>
+            <div class="flex-event">
+                <div class="idol">
+                    <img class="news-picture" src="pictures/news.png" alt="">
+                </div>
+                <div class="yow2">
+                    <p>The Salcedo campus coach suggested that officials verify the documents of ESSU Main's players before the championship match, which eventually led to their disqualification announcement.</p>
+                </div>
+            </div>
+            <div class="flex-event">
+                <div class="idol">
+                    <img class="news-picture" src="pictures/news.png" alt="">
+                </div>
+                <div class="yow2">
+                    <p>The Salcedo campus coach suggested that officials verify the documents of ESSU Main's players before the championship match, which eventually led to their disqualification announcement.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logo">
+            
+            <img src="/pictures/essuuu.png" alt="">
+            <div class="Icons">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="connect">
+                <h4>Connect With Us</h4>
+            </div>
+        </div>
+        <div class="footer-content">
+        <h4 class="mini-header">ESSU Sports Zone</h4>
+        <li><a href="#">About: ESSU Sports Zone</a></li>
+        <li><a href="#">ESSU Sports Zone Design</a></li>
+        <h4 class="mini-header">SUPPORT US</h4>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        </div>
+        <div class="footer-content">
+            <h4 class="mini-header">EXPLORE</h4>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Join Club</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Clubs</a></li>
+        </div>
+        <div class="footer-contents">
+            <h4 class="mini-header">LINKS</h4>
+            <h4 class="mini color">ESSU Catalyst</h4>
+            <li><a href="https://www.facebook.com/essucatalysts" target="_blank">https://www.facebook.com/essucatalysts</a></li>
+            <h4 class="mini color1">ESSU Official Website</h4>
+            <li><a href="https://essu.edu.ph/" target="_blank">https://essu.edu.ph/</a></li>
+    
+        </div>
+        <div class="liningagain">
+            <hr>
+        </div>
+        </div>
+        <div class="copyright">
+            <p class="copy-r">&copy; Copyright ©2023 ESSU Sports Zone | Designed by Adriane Garcia</p>
+        <a class="privacy foot"  href="#">Privacy Policy</a>
+        <p class="barrier">|</p>
+        <a class = "foot"   href="#">Terms & Condition</a>
+        </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>

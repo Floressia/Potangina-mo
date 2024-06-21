@@ -1,0 +1,185 @@
+body{
+    background-color: #046503;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    
+}
+.close{
+    width: 150px;
+}
+.close img{
+    height: 80px;
+}
+.par h1{
+    color: white;
+    font-family: 'Bruno Ace SC';
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 380px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 0px 20px;
+}
+.rectang{
+    background: white;
+    height: 350px;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #222222;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0px 20px;
+
+}
+.picture
+{
+    height: 180px;
+    padding: 16px 16px;
+}
+.team{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 53px;
+    margin-top: -8px;
+    color: rgb(78, 78, 78);
+}
+.join{
+    background: green;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 75px;
+    margin-top: -15px;
+    box-shadow: 2px 2px 3px #222222;
+    text-align: center;
+}
+.join1{
+    background: green;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 75px;
+    margin-top: -15px;
+    box-shadow: 2px 2px 3px #222222;
+    text-align: center;
+}
+.yagu a{
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.yagu{
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.transact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.transact p{
+    font-family: sans-serif;
+}
+.team2{
+    margin-left: 65px;
+}
+.team3{
+    margin-left: 80px;
+}
+.team4{
+    margin-left: 35px;
+}
+.team5{
+    margin-left: 65px;
+}
+.picture1{
+    height: 180px;
+    width: 290px;
+    padding: 16px 16px;
+    border-radius: 25px;
+}
+.transact p a{
+    text-decoration: none;
+    color: red;
+}
+.next-page{
+    background: white;
+    height: 60px;
+    width: 395px;
+    display: flex;
+    margin-left: 39%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.button1{
+    background: rgb(5, 146, 40);
+    height: 50px;
+    width: 110px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px 0px 0px 20px;
+}
+.prev{
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bolder;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.one{
+    background: rgb(51, 50, 50);
+    border: 2px solid;
+    height: 46px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.two{
+    background: rgb(255, 255, 255);
+    border: 2px solid;
+    height: 46px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.button2{
+    background: rgb(5, 146, 40);
+    height: 50px;
+    width: 110px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 0px 20px 20px 0px;
+}
+.num1{
+    font-size: 30px;
+    font-family: "Arial";
+    font-weight: bolder;
+    color: white;
+    margin-top: 6px;
+    margin-left: 28px;
+}
+.num2{
+    font-size: 30px;
+    font-family: "Arial";
+    font-weight: bolder;
+    color: black;
+    margin-top: 6px;
+    margin-left: 28px;
+}

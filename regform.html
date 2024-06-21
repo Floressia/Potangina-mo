@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESSU Sports Zone</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="regform.css">
+    <link href="https://fonts.cdnfonts.com/css/bruno-ace-sc" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+    <body class="form" id="operario">
+        <form class="successful" id="submition">
+            <div class="headerGIF">
+                <img src="/pictures/greenflag.png">
+            </div>
+            <img class="karasuno" src="/pictures/karasuno.gif">
+            <h1>THANK YOU FOR YOUR APPLICATION</h1>
+            <p>We've received your information and will be in touch shortly."</p>
+            <button onclick="ceps()">DONE</button>
+        </form>
+        <header>
+        <div class="headerform">
+            <div class="img-close">
+                <a href="Logged.html"><img src="/pictures/closing.png"></a>
+            </div>
+            <div class="logo-form">
+                <img src="/pictures/logo2.png" alt="">
+            </div>
+            <img src="/pictures/iankyut.png">
+        </div>
+        </header>
+
+        <main>
+            <div class="headtext">
+                <img src="/pictures/bball.png" alt="">
+                <h1>Basketball <a target="_blank" href="tryit.asp?filename=trycss_text">Team</a></h1>
+            </div>
+            <div class="rectcontainer">
+                <h2>Athlete Registration Form</h2>
+                <hr>
+                <div class="inputter">
+                    <div class="headertexto">
+                    <p class="yourName">Name</p>
+                    <p class="athlete">Athlete's Picture</p>
+                    </div>
+                    <div class="inputnaming">
+                        <input type="text" class="naming">
+                        <input type="text" class="naming">
+                        <input type="text" class="naming">
+                    </div>
+                    <div class="texting">
+                        <p class="first">First Name</p>
+                        <p class="Last">Last Name</p>
+                        <p class="Middle">Middle Name</p>
+                    </div>
+                </div>
+
+                <div class="inputter">
+                    <div class="miniheader">
+                        <p class="yourEmail">Email</p>
+                        <p class="yourDate">Birth Date</p>
+                    </div>
+                    <div class="inputnaming">
+                        <input type="email  " class="namings">
+                        <input type="date" class="namer" placeholder="MM-DD-YYYY">
+                        <input type="tel" class="namings" id="phone" name="phone" pattern="\d{2}-\d{9}">
+                    </div>
+                    <div class="textings">
+                        <p class="mail">Example@example.com</p>
+                        <p class="Date">Date</p>
+                        <p class="Number">Phone Number</p>
+                    </div>
+                    <div class="inputo">
+                        <input type="text" class="naming">
+                        <div class="datalist-holder">
+                            <select id="yearLevel">
+                                <option>1st Year</option>
+                                <option>2nd Year</option>
+                                <option>3rd Year</option>
+                                <option>4th Year</option>
+                            </select>
+                         </div>
+                         <div class="datalist-holder">
+                            <select id="Section">
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                            </select>
+                         </div>
+                    </div>
+                    <div class="upload">
+                        <style>
+                            .image-container {
+                              border: 1px solid #ccc;
+                              width: 200px;
+                              height: 200px;
+                              text-align: center;
+                              overflow: hidden;
+                              margin-top: -260px;
+                              margin-bottom: 20px;
+                            }
+                        
+                            .image-container img {
+                              width: 200px;
+                              height: 200px;
+                              object-fit: fill; /* Preserve aspect ratio and cover the entire container */
+                              position: absolute;
+                              margin-left: -130px;
+                              
+                              z-index: 1;
+                            }
+                            
+                          </style>
+                        </head>
+                        <body class="language">
+                          <div class="image-container">
+                            <p>
+                              <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+                            </p>
+                          
+                            <p>
+                              <img id="output" />
+                            </p>
+                          </div>
+                          <p class="upload-btn">
+                            <label for="file" style="cursor: pointer;">BROWSE FILES</label>
+                          </p>
+                        <script>
+                        var loadFile = function(event) {
+                            var image = document.getElementById('output');
+                            image.src = URL.createObjectURL(event.target.files[0]);
+                        
+                            var label = document.getElementById('upload-label');
+                            label.style.display = 'none';
+                        };
+                        </script>
+                    </div>
+                    <div class="textingi">
+                        <p class="course">Course/Program</p>
+                        <p class="ys">Year Level</p>
+                        <p class="sectioning">Section</p>
+                    </div>
+                    <div class="address">
+                        <p>Address</p>
+                    </div>
+                    <div class="addressInput">
+                        <input type="text" class="naming">
+                        <div class="zip">
+                            <input type="text" class="zipCode">
+                        </div>
+                    </div>
+                    <div class="textingi">
+                        <p class="adress">Street | Baranggay | Municipality | State Province</p>
+                        <p class="zipp">Postal / Zip Code</p>
+                    </div>
+                     <div class="gender">
+                        <p class="wGender">Gender</p>
+                    </div>
+                    <div class="genders">
+                        <div class="genderCheck">
+                            <input type="checkbox">
+                            <p>Female</p>
+                        </div>
+                        <div class="genderCheckers">
+                            <input type="checkbox">
+                            <p class="male">Male</p>
+                        </div>
+                    </div>
+
+                    <div class="gender">
+                        <p class="question">The athlete have any chronic medical illnesses such as diabetes, asthma (exercise asthma), kidney problems, etc.?</p>
+                    </div>
+
+                    <div class="genders">
+                        <div class="genderCheck">
+                            <input type="checkbox">
+                            <p>Yes</p>
+                        </div>
+                        <div class="genderCheck">
+                            <input type="checkbox">
+                            <p>No</p>
+                        </div>
+                    </div>
+
+                    <div class="gender">
+                        <p class="question2">The athlete have any allergies?</p>
+                    </div>
+
+                    <div class="genders">
+                        <div class="genderCheck">
+                            <input type="checkbox">
+                            <p>Yes</p>
+                        </div>
+                        <div class="genderCheck">
+                            <input type="checkbox">
+                            <p>No</p>
+                        </div>
+                    </div>
+                    
+                    <div class="medical">
+                        <p>Please upload medical health document(s) (if applicable)</p>
+                    </div>
+
+                    <div class="hero">
+                        <label for="input-file" id="drop-area">
+                                                    <input type="file" accept="image/*" id="input-file" hidden>
+                            <div id="img-view">
+                                <img src="/pictures/508-icon.png">
+                                <p>Drag and drop or click here <br> to upload image</p>
+                                <span>Upload any images from desktop</span>
+                            </div>
+                        </label>
+                        <input type="file" accept="image/*" id="input-file" hidden>
+
+                    </label>
+                    </div>
+
+                    <div class="parents">
+                        <p>Parent/Guardian & Emergency Contact</p>      
+                    </div>
+
+                    <div class="textinger">
+                        <p class="mails">Full Name</p>
+                        <p class="Dates">Relationship</p>
+                        <p class="Numbers">Phone Number</p>
+                    </div>
+
+                    <div class="inputnaming">
+                        <input type="text" class="naming">
+                        <input type="text" class="naming">
+                        <input type="text" class="naming">
+                    </div>
+
+                    <div class="restrictions">
+                        <p>I, the athlete, agree with the following statements:</p>
+                    </div>
+                    <div class="restrict">
+                        <input type="checkbox">
+                        <p>I am physically able to take part in the activities.</p>
+                    </div>
+                    <div class="restrict">
+                        <input type="checkbox">
+                        <p>I know there is a risk of injury. I understand the risk of continuing <br> to play sports with or after concussion or other injury. I have to <br> get medical care if i have a suspected concussion or other injury. <br> I also may have to wait 7 days or more and get permission from <br> a doctor before i start playing sports again.</p>
+                    </div>
+                    <div class="restrict">
+                        <input type="checkbox">
+                        <p>I will respect and obey all laws and the athlete’s Code of Conduct.</p>
+                    </div>
+                    <div class="medical">
+                        <p>Signature of (Athlete or Parent/Guardian)</p>
+                    </div>
+
+                    <div class="hero">
+                        <label for="input-file" id="drop-area">
+                                                    <input type="file" accept="image/*" id="input-file" hidden>
+                            <div id="img-view">
+                                <img src="/pictures/508-icon.png">
+                                <p>Drag and drop or click here <br> to upload image</p>
+                                <span>Upload any images from desktop</span>
+                            </div>
+                        </label>
+                        <input type="file" accept="image/*" id="input-file" hidden>
+
+                    </label>
+                    </div>
+                    <div class="clear">
+                        <button>
+                            Clear
+                        </button>
+                    </div>
+                    <div class="borderLine">
+                        <hr>
+                    </div>
+                    <div class="submit">
+                        <button onclick="peps()">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="another.js"></script>
+    </body>
+
+</html>

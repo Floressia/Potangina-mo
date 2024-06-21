@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSSetReadReceiptSettingForThread",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.sequence([function(c){return b.forEach(b.db.table(9).fetch([[[a[0]]]]),function(c){var d=c.update;c.item;return d({isReadReceiptsDisabled:b.i64.eq(a[1],b.i64.cast([0,1])),readReceiptsDisabledV2:a[1]})})},function(a){return b.resolve(c)}])}e.exports=a}),null);
+__d("LSUpdateThreadMuteSetting",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.sequence([function(c){return b.forEach(b.db.table(9).fetch([[[a[0]]]]),function(b){var c=b.update;b.item;return c({muteExpireTimeMs:a[1]})})},function(a){return b.resolve(c)}])}e.exports=a}),null);

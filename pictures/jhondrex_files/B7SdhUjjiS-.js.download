@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("MWXIconCalendar",["MWXSvgIcon","SVGIcon","cr:9031","gkx"],(function(a,b,c,d,e,f,g){"use strict";a=d("MWXSvgIcon").mwxSvgIcon(d("SVGIcon").svgIcon(b("cr:9031")),c("gkx")("23219"));g["default"]=a}),98);

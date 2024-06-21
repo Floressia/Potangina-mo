@@ -1,0 +1,128 @@
+.footer{
+    background: rgb(27, 27, 27);
+    height: 350px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.Icons{
+    margin-left: 60px;
+    display: flex;
+  }
+  .Icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    border: #ffffff;
+    margin: 5px;
+    border-radius: 60%;
+  }
+  .Icons a i{
+    font-size: 1.5em;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+  .connect h4{
+    font-family: 'Alumni Sans';
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+  }
+  .logo img{
+    flex: 1;
+    width: 160px;
+  height: 90px;
+  margin-top: 40px;
+  margin-left: 100px;
+  }
+  .connect{
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .connect h4{
+    font-size: 35px;
+  }
+.mini-header{
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.footer-content a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: lighter;
+  
+}
+.footer li{
+  margin-top: 20px;
+}
+.footer-content{
+  margin-top: 30px;
+}
+.logo{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.footer-contents{
+  margin-top: 30px;
+}
+.mini{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+  
+}
+.color{
+  color: red;
+}
+.color1{
+  color: green;
+}
+.footer-contents a{
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-right: 80px;
+}
+.lining{
+  border: none; 
+  height: 1.5px;
+  background-color: #ffffff;
+}
+.copyright{
+  background: rgb(27, 27, 27);
+  height: 50px;
+  display: flex;
+}
+.copy-r{
+  color: white;
+  font-family: sans-serif;
+  margin-left: 20px;
+  flex: 1;
+}
+.foot{
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.barrier{
+ color: white;
+ margin-right: 50px;
+}
+.liningagain hr{
+  height: 1.8px;
+background-color: #ffffff;
+margin-bottom: 10px;
+}

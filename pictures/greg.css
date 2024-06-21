@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .groupText h1{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+  }
+  .groupText{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 15px;
+    display: block;
+  }
+  .contact img{
+    height: 400px;
+    width: 400px;
+  }
+  .portfolio h1{
+    margin-left: 800px;
+  }
+  .contact{
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact p{
+    position: relative;
+  }
